@@ -65,7 +65,7 @@ a {
   grid-template-columns: 0.5fr 0.0001fr 1fr 0.3fr;
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 25px;
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
   height: 100vh;
 }
 
