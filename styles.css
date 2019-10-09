@@ -118,8 +118,6 @@ a {
   display: grid;
   grid-template-columns: 0.2fr 1fr;
   grid-template-rows: repeat(2, 0.5fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 .date1 {
@@ -137,4 +135,24 @@ a {
 
 .bold {
   font-weight: bold;
+}
+
+.headerfont {
+  font-size: 17px;
+}
+
+.edu-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.margin-top {
+  margin-top: 3em;
+}
+
+/* .margin-left{
+  margin-left: 4em;
+} */
+.link2 {
+  margin-left: 5em;
 }
