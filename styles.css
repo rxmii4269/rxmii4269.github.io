@@ -116,8 +116,6 @@ a {
 
 .work-container {
   display: flex;
-  grid-template-columns: 0.2fr 1fr;
-  grid-template-rows: repeat(2, 0.5fr);
 }
 
 .date1 {
@@ -143,16 +141,12 @@ a {
 
 .edu-container {
   display: flex;
-  /* flex-flow: row nowrap; */
 }
 
 .margin-top {
   margin-top: 3.2em;
 }
 
-/* .margin-left{
-  margin-left: 4em;
-} */
 .link2 {
   margin-left: 5em;
 }
