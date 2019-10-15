@@ -115,7 +115,7 @@ a {
 }
 
 .work-container {
-  display: grid;
+  display: flex;
   grid-template-columns: 0.2fr 1fr;
   grid-template-rows: repeat(2, 0.5fr);
 }
@@ -143,11 +143,11 @@ a {
 
 .edu-container {
   display: flex;
-  flex-flow: row nowrap;
+  /* flex-flow: row nowrap; */
 }
 
 .margin-top {
-  margin-top: 3em;
+  margin-top: 3.2em;
 }
 
 /* .margin-left{
